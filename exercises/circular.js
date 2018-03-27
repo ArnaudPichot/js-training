@@ -9,12 +9,8 @@
 
 // Your code :
 let circular = {
-    circular: '',
     get circular() { 
-      return this.circular;
-    },
-    set circular(x) {
-      this.circular = circular
+      return circular;
     }
   };
 //* Begin of tests
